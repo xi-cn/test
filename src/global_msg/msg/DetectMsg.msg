@@ -1,0 +1,10 @@
+std_msgs/Header header
+uint8 mode
+uint64 timestamp
+Point2f[5] points2d
+geometry_msgs/Point buff2camera_v
+geometry_msgs/Point camera2world_v
+geometry_msgs/Point buff2world_v
+geometry_msgs/Quaternion buff2camera_q
+geometry_msgs/Quaternion camera2world_q
+geometry_msgs/Quaternion buff2world_q
